@@ -1,10 +1,10 @@
 pipeline{
-        agent {
-            docker{
-                image "ruby"
-            }
-        }
-    }
+    agent {
+         docker{
+              image "ruby"
+           }
+     }
+    
     
     stages{
             stage('Build'){
@@ -30,4 +30,4 @@ pipeline{
                     }
             }
     }
-
+}
