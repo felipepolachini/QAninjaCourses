@@ -4,7 +4,7 @@ pipeline{
                 image "ruby"
             }
         }
-    }
+    
     
     stages{
             stage('Build'){
@@ -30,4 +30,4 @@ pipeline{
                     }
             }
     }
-
+}
