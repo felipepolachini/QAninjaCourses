@@ -20,7 +20,7 @@ pipeline{
                     }
             }
             stage('Prod'){
-                    step{
+                    steps{
                         echo "WebApp is ready."
                     }
             }
