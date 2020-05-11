@@ -1,15 +1,16 @@
 pipeline{
-    agent {
-        docker {
-            image "ruby"
+        agent {
+            docker {
+                image "ruby"
+            }
         }
-    }}
+    }
     
     stages{
             stage('Build'){
                     steps{
                         echo "Building and solving dependencies"
-                        sh 'bundle install'
+                        sh "bundle install"
                     }    
             }
             stage('Test'){
