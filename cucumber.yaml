@@ -1,6 +1,6 @@
 ---
 default: -p firefox -p json -p pretty
-default2: -p headless -p json -p pretty
+ci: -p headless -p json -p pretty
 
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome
